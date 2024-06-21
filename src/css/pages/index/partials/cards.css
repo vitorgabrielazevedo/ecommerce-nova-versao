@@ -1,0 +1,33 @@
+.cards-container {
+  margin-bottom: 3rem;
+}
+
+.cards-container .card {
+  padding: 1rem 0.3rem;
+  border-radius: none;
+  margin-bottom: 1rem;
+  height: 450px;
+}
+
+.cards-container .card-title,
+.cards-container .card-text {
+  margin-bottom: 1rem;
+}
+
+.cards-container .card-title {
+  font-size: 14px;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.cards-container .card-text {
+  font-weight: bold;
+}
+
+.cards-container .btn {
+  padding: 0.5rem 1rem;
+}
+
+.card img {
+  height: 200px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se já</title>
+
+    <!-- css do projeto -->
+    <link rel="stylesheet" href="src/css/pages/index/index.css" />
+  </head>
+  <body>
+    <!-- barra de navegação -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-primary-color"
+        id="navbar"
+      >
+        <div class="container py-3">
+          <a href="#" class="navbar-brand">
+            <i class="bi bi-cpu"></i>
+            <span>EletroMundo</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-itens"
+            aria-controls="navbar-itens"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-itens">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrinho.html">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar produto..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- formulário de cadastro -->
+    <section id="form-container">
+      <div class="container" id="cadastro-container">
+        <form id="form-cadastro">
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite o seu nome"
+          />
+          <input
+            type="text"
+            name="cpf"
+            id="cpf"
+            placeholder="Digite o seu cpf"
+          />
+          <input
+            type="tel"
+            name="telefone"
+            id="telefone"
+            placeholder="Digite o seu telefone"
+          />
+          <div id="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite o seu e-mail"
+            />
+            <input
+              type="text"
+              name="senha"
+              id="senha"
+              placeholder="Digite a sua senha"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

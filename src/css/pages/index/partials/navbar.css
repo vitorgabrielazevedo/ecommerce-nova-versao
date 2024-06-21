@@ -1,0 +1,52 @@
+#navbar a {
+  color: #fdfdfd;
+  transition: 0.5s;
+}
+
+#navbar a:hover {
+  color: #e0e0e0;
+}
+
+#navbar a.active {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand i {
+  font-size: 35px;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+#navbar-itens .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#navbar-itens .nav-item {
+  margin: 0 0.5rem;
+}
+
+#navbar-itens .nav-item i {
+  font-size: 24px;
+}
+
+#navbar-itens form input {
+  box-shadow: none;
+  outline: none;
+  width: 200px;
+}
+
+#navbar-itens form input::placeholder {
+  font-size: 14px;
+}

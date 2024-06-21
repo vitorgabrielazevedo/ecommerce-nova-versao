@@ -1,0 +1,46 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+.bg-primary-color {
+  background-color: #333;
+}
+
+.bg-secondary-color {
+  background-color: #e0e0e0;
+}
+
+.primary-color {
+  color: #333;
+}
+
+.secondary-color {
+  color: #e0e0e0;
+}
+
+.btn-color {
+  background-color: #0c550c;
+}
+
+.titulo {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 2rem 1rem;
+  position: relative;
+}
+
+.titulo::before {
+  content: "";
+  border-top: 4px solid #7a7a7a;
+  width: 75px;
+  position: absolute;
+  bottom: 2.7rem;
+}

@@ -1,0 +1,20 @@
+#cards {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#cards .cards-container {
+  margin-bottom: 0;
+}
+
+#mais-btn {
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+#mais-btn button {
+  padding: 1rem 2rem;
+  font-size: 18px;
+  text-transform: uppercase;
+}

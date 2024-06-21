@@ -1,0 +1,14 @@
+#filtro {
+  margin-top: 8rem;
+  display: flex;
+}
+
+#categorias {
+  max-width: 200px;
+  padding: 1rem 2rem;
+}
+
+.check-control {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}

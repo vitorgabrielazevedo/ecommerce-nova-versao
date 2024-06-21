@@ -1,0 +1,99 @@
+#footer {
+  padding: 1rem 2rem;
+}
+
+/* footer top */
+
+#footer-top {
+  margin-top: 3rem;
+}
+
+#footer-top i,
+#footer-top span {
+  color: #fff;
+}
+
+#footer-top .bi-cpu {
+  font-size: 25px;
+}
+
+#footer span {
+  font-size: 25px;
+  margin-left: 0.5rem;
+}
+
+#redes-sociais {
+  text-align: right;
+}
+
+#redes-sociais i {
+  font-size: 22px;
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+
+#redes-sociais i:hover {
+  color: #e0e0e0;
+}
+
+/* footer detalhes */
+
+#footer-detalhes {
+  margin: 1rem 0;
+}
+
+#footer-detalhes h4 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+#noticias-container,
+#contato-container,
+#links-container {
+  padding: 0;
+  border: 0;
+  margin-bottom: 2rem;
+}
+
+#noticias-container form {
+  display: flex;
+}
+
+#noticias-container form input {
+  box-shadow: none;
+  outline: none;
+  width: 200px;
+}
+
+#noticias-container form button {
+  height: 38px;
+}
+
+#noticias-container {
+  padding-right: 2rem;
+}
+
+#contato-container {
+  padding: 0 2rem;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+
+#links-container {
+  padding-left: 2rem;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#links-container a:hover {
+  color: #fff;
+}
+
+/* footer bottom */
+
+#footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+}

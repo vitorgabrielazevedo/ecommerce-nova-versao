@@ -1,0 +1,17 @@
+@import url("../../global/estilosgerais.css");
+
+@import url("../../global/fonts.css");
+
+@import url("../../pages/index/partials/slider.css");
+
+@import url("../../pages/index/partials/navbar.css");
+
+@import url("../../pages/index/partials/cards.css");
+
+@import url("../../pages/index/partials/footer.css");
+
+@import url("../../pages/filtros/filtro.css");
+
+@import url("../login/login.css");
+
+@import url("../cadastro/cadastro.css");

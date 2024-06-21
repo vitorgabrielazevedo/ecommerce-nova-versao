@@ -1,0 +1,140 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 126px);
+  position: relative;
+}
+
+#banner-container {
+  padding: 10rem;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+#banner-container i,
+#banner-container span {
+  color: #050505;
+}
+
+#banner-container i {
+  font-size: 60px;
+}
+
+#banner-container span {
+  font-size: 30px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+#login-container {
+  min-width: 400px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  position: absolute;
+  right: 300px;
+  margin-top: 6rem;
+}
+
+#login-container h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form input {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.6rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #444;
+}
+
+#login-form input::placeholder {
+  font-size: 14px;
+}
+
+#login-form button {
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#outros-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#outros-links a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #05a;
+}
+
+#outros-links a:hover {
+  color: #014d99;
+}
+
+#separador {
+  position: relative;
+}
+
+#line {
+  border: 1px solid #dbdbdb;
+  margin: 0.6rem auto 1.2rem;
+}
+
+#separador span {
+  position: absolute;
+  top: -10px;
+  margin-left: 160px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #444;
+  background-color: #fdfdfd;
+  width: 50px;
+}
+
+#mais-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-container {
+  border: 1px solid #dbdbdb;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.link-container span {
+  margin-left: 0.3rem;
+  font-size: 14px;
+}
+
+#facebook-login i {
+  color: #05a;
+}
+
+#registro-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#registro-container p {
+  color: #444;
+}
+
+#registro-container a {
+  text-decoration: none;
+  color: #05a;
+}
+
+#registro-container a:hover {
+  color: #014d99;
+}

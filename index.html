@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EletroMundo</title>
+
+    <!-- css do projeto -->
+    <link rel="stylesheet" href="src/css/pages/index/index.css" />
+
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- barra de navegação -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-primary-color"
+        id="navbar"
+      >
+        <div class="container py-3">
+          <a href="#" class="navbar-brand">
+            <i class="bi bi-cpu"></i>
+            <span>EletroMundo</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-itens"
+            aria-controls="navbar-itens"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-itens">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrinho.html">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar produto..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- slider -->
+    <section class="container" id="slider-container">
+      <div class="carousel slide" id="slider">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="src/img/slide-01.png"
+              alt="Slide 1"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/img/slide-02.png"
+              alt="Slide 2"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/img/slide-03.png"
+              alt="Slide 3"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/img/slide-04.png"
+              alt="Slide 4"
+              class="d-block w-100"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <i class="bi bi-chevron-compact-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <i class="bi bi-chevron-compact-right"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- cards -->
+    <section class="container cards-container">
+      <h2 class="titulo">Confira algumas ofertas</h2>
+      <div class="col-12 col-md-10 offset-md-1">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-01.png"
+                class="card-img-top"
+                alt="card-01"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR Google
+                  Assistente 3 HDMI 1 USB
+                </h5>
+                <h3 class="card-text">R$ 2.089,05</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-02.png"
+                class="card-img-top"
+                alt="card-02"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Smartphone Motorola Razr 40 256GB Vanilla 5G Snapdragon 8GB
+                  RAM 6,9" Câm. Dupla + Selfie 64MP
+                </h5>
+                <h3 class="card-text">R$ 3.599,10</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-03.png"
+                class="card-img-top"
+                alt="card-03"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Smartphone Motorola Edge 40 Neo 256GB Soothing Sea 5G 8GB RAM
+                  6,55" Câm. Dupla + Selfie 32MP Dual Chip
+                </h5>
+                <h3 class="card-text">R$ 2.199,00</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-04.png"
+                class="card-img-top"
+                alt="card-04"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Notebook Acer Aspire A315-24p-r06b 8gb 512gb W11 15.6 Prata
+                  Cor Prateado
+                </h5>
+                <h3 class="card-text">R$ 2.549,99</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container cards-container">
+      <h2 class="titulo">Mais visualizados</h2>
+      <div class="col-12 col-md-10 offset-md-1">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-05.png"
+                class="card-img-top"
+                alt="card-05"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Echo Dot 5ª geração com Relógio | Smart speaker com Alexa |
+                  Display de LED ainda melhor | Cor Azul Claro
+                </h5>
+                <h3 class="card-text">R$ 476,10</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-06.png"
+                class="card-img-top"
+                alt="card-06"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Fone de Ouvido JBL Tune 520BT Azul Bluetooth Pure Bass
+                  Wireless Sem Fio Com Microfone JBLT520BTBLU
+                </h5>
+                <h3 class="card-text">R$ 287,91</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-07.png"
+                class="card-img-top"
+                alt="card-07"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Apple iPhone 13 256GB Meia-noite Tela 6,1” 12MP
+                </h5>
+                <h3 class="card-text">R$ 5.129,10</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <img
+                src="src/img/card-08.png"
+                class="card-img-top"
+                alt="card-08"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Notebook Dell Inspiron 15 3000 Intel Core i5 8GB - 256GB SSD
+                  15,6” Windows 11 i15-i1100-A35PF
+                </h5>
+                <h3 class="card-text">R$ 3.059,10</h3>
+                <a href="#" class="btn btn-success">Detalhes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid bg-primary-color" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="footer-top">
+            <div class="row justify-content-between">
+              <div class="col-4">
+                <i class="bi bi-cpu"></i>
+                <span>EletroMundo</span>
+              </div>
+              <div class="col-4" id="redes-sociais">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="footer-detalhes">
+            <div class="row">
+              <div class="col-12 col-md-4" id="noticias-container">
+                <h4>Fique por dentro de tudo!</h4>
+                <p class="secondary-color">
+                  Seja o primeiro a saber de nossas ofertas, lançamentos de
+                  novos produtos e eventos
+                </p>
+                <form>
+                  <div class="mb-3">
+                    <input
+                      class="form-control me-2"
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Digite seu e-mail..."
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+              </div>
+              <div class="col-12 col-md-4" id="contato-container">
+                <h4>Formas de contato:</h4>
+                <p class="secondary-color">(84) 99999-9999</p>
+                <p class="secondary-color">eletromundo@gmail.com</p>
+              </div>
+              <div class="col-12 col-md-4" id="links-container">
+                <div class="row">
+                  <h4>Você pode estar procurando por:</h4>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Smartphones</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Notebooks</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Smart TVs</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Echo Dots</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Headphones</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Fire TV Stick</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Smartwatches</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Tablets</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Kindle</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="footer-bottom">
+            <div class="row">
+              <p class="secondary-color">&copy; 2024 EletroMundo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

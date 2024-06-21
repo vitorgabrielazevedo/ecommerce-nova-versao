@@ -1,0 +1,32 @@
+#slider {
+  width: 900px;
+  margin: 8rem auto 1rem;
+  margin-bottom: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #20f35f;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  background-color: #198754;
+  opacity: 1;
+}
+
+#slider .carousel-item img {
+  height: 400px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: #20f35f;
+  opacity: 0.9;
+  font-size: 3rem;
+  transition: 0.5s;
+}
+
+.carousel-control-prev i:hover,
+.carousel-control-next i:hover {
+  color: #198754;
+}

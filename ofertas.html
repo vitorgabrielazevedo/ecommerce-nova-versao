@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ofertas</title>
+
+    <!-- css do projeto -->
+    <link rel="stylesheet" href="src/css/pages/index/index.css" />
+  </head>
+  <body>
+    <!-- barra de navegação -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-primary-color"
+        id="navbar"
+      >
+        <div class="container py-3">
+          <a href="#" class="navbar-brand">
+            <i class="bi bi-cpu"></i>
+            <span>EletroMundo</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-itens"
+            aria-controls="navbar-itens"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-itens">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrinho.html">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar produto..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- filtro -->
+    <section id="filtro">
+      <div id="categorias">
+        <h4>Filtrar por:</h4>
+        <ul class="list-unstyled">
+          <li>
+            <div class="check-control">
+              <input type="checkbox" name="smartphone" id="smartphone" />
+              <label for="smartphone">Smartphones</label>
+            </div>
+            <div class="check-control">
+              <input type="checkbox" name="smarttv" id="smarttv" />
+              <label for="smarttv">Smart TVs</label>
+            </div>
+            <div class="check-control">
+              <input type="checkbox" name="notebook" id="notebook" />
+              <label for="notebook">Notebooks</label>
+            </div>
+            <div class="check-control">
+              <input type="checkbox" name="echo-dot" id="echo-dot" />
+              <label for="echo-dot">Echo Dots</label>
+            </div>
+            <div class="check-control">
+              <input type="checkbox" name="headphone" id="headphone" />
+              <label for="headphone">Headphones</label>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="cards">
+        <div class="container cards-container">
+          <div class="col-12 col-md-10 offset-md-1">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-01.png"
+                    class="card-img-top"
+                    alt="card-01"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR
+                      Google Assistente 3 HDMI 1 USB
+                    </h5>
+                    <h3 class="card-text">R$ 2.089,05</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-02.png"
+                    class="card-img-top"
+                    alt="card-02"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Smartphone Motorola Razr 40 256GB Vanilla 5G Snapdragon
+                      8GB RAM 6,9" Câm. Dupla + Selfie 64MP
+                    </h5>
+                    <h3 class="card-text">R$ 3.599,10</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-03.png"
+                    class="card-img-top"
+                    alt="card-03"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Smartphone Motorola Edge 40 Neo 256GB Soothing Sea 5G 8GB
+                      RAM 6,55" Câm. Dupla + Selfie 32MP Dual Chip
+                    </h5>
+                    <h3 class="card-text">R$ 2.199,00</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-04.png"
+                    class="card-img-top"
+                    alt="card-04"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Notebook Acer Aspire A315-24p-r06b 8gb 512gb W11 15.6
+                      Prata Cor Prateado
+                    </h5>
+                    <h3 class="card-text">R$ 2.549,99</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container cards-container">
+          <div class="col-12 col-md-10 offset-md-1">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-01.png"
+                    class="card-img-top"
+                    alt="card-01"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR
+                      Google Assistente 3 HDMI 1 USB
+                    </h5>
+                    <h3 class="card-text">R$ 2.089,05</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-02.png"
+                    class="card-img-top"
+                    alt="card-02"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Smartphone Motorola Razr 40 256GB Vanilla 5G Snapdragon
+                      8GB RAM 6,9" Câm. Dupla + Selfie 64MP
+                    </h5>
+                    <h3 class="card-text">R$ 3.599,10</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-03.png"
+                    class="card-img-top"
+                    alt="card-03"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Smartphone Motorola Edge 40 Neo 256GB Soothing Sea 5G 8GB
+                      RAM 6,55" Câm. Dupla + Selfie 32MP Dual Chip
+                    </h5>
+                    <h3 class="card-text">R$ 2.199,00</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img
+                    src="src/img/card-04.png"
+                    class="card-img-top"
+                    alt="card-04"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Notebook Acer Aspire A315-24p-r06b 8gb 512gb W11 15.6
+                      Prata Cor Prateado
+                    </h5>
+                    <h3 class="card-text">R$ 2.549,99</h3>
+                    <a href="#" class="btn btn-success">Detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="mais-btn">
+          <button class="btn btn-success">Mostrar mais</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

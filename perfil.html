@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faça Login e comece suas Compras</title>
+
+    <!-- css do projeto -->
+    <link rel="stylesheet" href="src/css/pages/index/index.css" />
+  </head>
+  <body>
+    <!-- barra de navegação -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-primary-color"
+        id="navbar"
+      >
+        <div class="container py-3">
+          <a href="#" class="navbar-brand">
+            <i class="bi bi-cpu"></i>
+            <span>EletroMundo</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-itens"
+            aria-controls="navbar-itens"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-itens">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrinho.html">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar produto..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- formulário de login -->
+    <section class="container-fluid form-container">
+      <div class="container" id="banner-container">
+        <i class="bi bi-cpu"></i>
+        <span>EletroMundo</span>
+      </div>
+      <div id="login-container">
+        <h3>Entre</h3>
+        <div id="form-box">
+          <form id="login-form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Número de telefone/Nome de usuário/E-mail"
+            />
+            <input type="text" name="senha" id="senha" placeholder="Senha" />
+            <button class="btn btn-success">Entrar</button>
+          </form>
+          <div id="outros-links">
+            <div id="forgot-pass">
+              <a href="#">Esqueci minha senha</a>
+            </div>
+            <div id="login-sms">
+              <a href="#">Fazer login com SMS</a>
+            </div>
+          </div>
+          <div id="separador">
+            <div id="line"></div>
+            <span>Ou</span>
+          </div>
+          <div id="mais-links">
+            <div class="link-container" id="google-login">
+              <i class="bi bi-google"></i>
+              <span>Google</span>
+            </div>
+            <div class="link-container" id="facebook-login">
+              <i class="bi bi-facebook"></i>
+              <span>Facebook</span>
+            </div>
+            <div class="link-container" id="apple-login">
+              <i class="bi bi-apple"></i>
+              <span>Apple</span>
+            </div>
+          </div>
+        </div>
+        <div id="registro-container">
+          <p>Novo na EletroMundo? <a href="cadastro.html">Cadastrar</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid bg-primary-color" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="footer-top">
+            <div class="row justify-content-between">
+              <div class="col-4">
+                <i class="bi bi-cpu"></i>
+                <span>EletroMundo</span>
+              </div>
+              <div class="col-4" id="redes-sociais">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="footer-detalhes">
+            <div class="row">
+              <div class="col-12 col-md-4" id="noticias-container">
+                <h4>Fique por dentro de tudo!</h4>
+                <p class="secondary-color">
+                  Seja o primeiro a saber de nossas ofertas, lançamentos de
+                  novos produtos e eventos
+                </p>
+                <form>
+                  <div class="mb-3">
+                    <input
+                      class="form-control me-2"
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Digite seu e-mail..."
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+              </div>
+              <div class="col-12 col-md-4" id="contato-container">
+                <h4>Formas de contato:</h4>
+                <p class="secondary-color">(84) 99999-9999</p>
+                <p class="secondary-color">eletromundo@gmail.com</p>
+              </div>
+              <div class="col-12 col-md-4" id="links-container">
+                <div class="row">
+                  <h4>Você pode estar procurando por:</h4>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Smartphones</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Notebooks</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Smart TVs</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Echo Dots</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Headphones</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Fire TV Stick</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Smartwatches</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Tablets</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Kindle</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="footer-bottom">
+            <div class="row">
+              <p class="secondary-color">&copy; 2024 EletroMundo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
