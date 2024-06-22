@@ -72,43 +72,137 @@
     </header>
 
     <!-- formulário de cadastro -->
-    <section id="form-container">
-      <div class="container" id="cadastro-container">
-        <form id="form-cadastro">
-          <input
-            type="text"
-            name="nome"
-            id="nome"
-            placeholder="Digite o seu nome"
-          />
-          <input
-            type="text"
-            name="cpf"
-            id="cpf"
-            placeholder="Digite o seu cpf"
-          />
-          <input
-            type="tel"
-            name="telefone"
-            id="telefone"
-            placeholder="Digite o seu telefone"
-          />
-          <div id="email">
+    <section class="container-fluid form-container">
+      <div class="container" id="banner-container">
+        <i class="bi bi-cpu"></i>
+        <span>EletroMundo</span>
+      </div>
+      <div id="login-container">
+        <h3>Cadastre-se</h3>
+        <div id="form-box">
+          <form id="login-form">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Nome completo"
+            />
+            <input
+              type="tel"
+              name="telefone"
+              id="telefone"
+              placeholder="Telefone"
+            />
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Digite o seu e-mail"
+              placeholder="E-mail"
             />
-            <input
-              type="text"
-              name="senha"
-              id="senha"
-              placeholder="Digite a sua senha"
-            />
+            <input type="text" name="senha" id="senha" placeholder="Senha" />
+            <button class="btn btn-success">Cadastrar</button>
+          </form>
           </div>
-        </form>
+        </div>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer class="container-fluid bg-primary-color" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="footer-top">
+            <div class="row justify-content-between">
+              <div class="col-4">
+                <i class="bi bi-cpu"></i>
+                <span>EletroMundo</span>
+              </div>
+              <div class="col-4" id="redes-sociais">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="footer-detalhes">
+            <div class="row">
+              <div class="col-12 col-md-4" id="noticias-container">
+                <h4>Fique por dentro de tudo!</h4>
+                <p class="secondary-color">
+                  Seja o primeiro a saber de nossas ofertas, lançamentos de
+                  novos produtos e eventos
+                </p>
+                <form>
+                  <div class="mb-3">
+                    <input
+                      class="form-control me-2"
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Digite seu e-mail..."
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+              </div>
+              <div class="col-12 col-md-4" id="contato-container">
+                <h4>Formas de contato:</h4>
+                <p class="secondary-color">(84) 99999-9999</p>
+                <p class="secondary-color">eletromundo@gmail.com</p>
+              </div>
+              <div class="col-12 col-md-4" id="links-container">
+                <div class="row">
+                  <h4>Você pode estar procurando por:</h4>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Smartphones</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Notebooks</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Smart TVs</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Echo Dots</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Headphones</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Fire TV Stick</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="secondary-color">Smartwatches</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Tablets</a>
+                      </li>
+                      <li>
+                        <a href="#" class="secondary-color">Kindle</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="footer-bottom">
+            <div class="row">
+              <p class="secondary-color">&copy; 2024 EletroMundo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
