@@ -45,12 +45,12 @@
                 <a class="nav-link" href="cadastro.html">Cadastro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="perfil.html">
+                <a class="nav-link" href="perfil.html">
                   <i class="bi bi-person-fill"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link active" href="#">
                   <i class="bi bi-cart"></i>
                 </a>
               </li>
@@ -76,7 +76,7 @@
       <h3>Seu carrinho</h3>
       <div id="conteudo">
         <div id="table-container">
-          <table>
+          <table id="table-carrinho">
             <thead>
               <th>Produto</th>
               <th>Preço</th>
@@ -88,14 +88,16 @@
               <tr>
                 <td>
                   <div class="produto-img">
-                    <img src="src/img/card-05.png" alt="Produto 1" />
-                  </div>
-                  <div class="info-produto">
-                    <div class="titulo">Echo Dot 5ª geração com Relógio</div>
-                    <div class="descricao">Cor: Azul Claro</div>
+                    <img src="src/img/card-05.png" alt="Echo Dot" />
+                    <div class="info-produto">
+                      <div class="titulo">Echo Dot 5ª geração com Relógio</div>
+                      <div class="descricao">Cor: Azul Claro</div>
+                    </div>
                   </div>
                 </td>
-                <td>R$ 476,10</td>
+                <td>
+                  <span class="preco">R$ 476,10</span>
+                </td>
                 <td>
                   <div class="quant">
                     <button>-</button>
@@ -104,7 +106,36 @@
                   </div>
                 </td>
                 <td>
-                  <span>R$ 952,20</span>
+                  <span class="total">R$ 952,20</span>
+                </td>
+                <td>
+                  <div class="remover-produto">
+                    <i class="bi bi-x-lg"></i>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="produto-img">
+                    <img src="src/img/card-05.png" alt="Echo Dot" />
+                    <div class="info-produto">
+                      <div class="titulo">Echo Dot 5ª geração com Relógio</div>
+                      <div class="descricao">Cor: Azul Claro</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="preco">R$ 476,10</span>
+                </td>
+                <td>
+                  <div class="quant">
+                    <button>-</button>
+                    <span>2</span>
+                    <button>+</button>
+                  </div>
+                </td>
+                <td>
+                  <span class="total">R$ 952,20</span>
                 </td>
                 <td>
                   <div class="remover-produto">

@@ -138,3 +138,11 @@
 #registro-container a:hover {
   color: #014d99;
 }
+
+#mostrar-senha-container {
+  margin: 0.5rem 0;
+}
+
+#mostrar-senha-container label {
+  font-size: 14px;
+}
