@@ -1,0 +1,15 @@
+#carrinho-container {
+  margin-top: 8rem;
+}
+
+#carrinho-container h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 4rem 0 3rem;
+  text-align: center;
+}
+
+.produto img {
+  width: 200px;
+  height: 200px;
+}
