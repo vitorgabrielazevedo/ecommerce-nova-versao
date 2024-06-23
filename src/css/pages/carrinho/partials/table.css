@@ -9,11 +9,56 @@
   text-align: center;
 }
 
-#table-carrinho thead tr {
-  border-bottom: 3px solid #e0e0e0;
+#conteudo {
+  width: 100%;
+  display: flex;
+}
+
+#table-container {
+  width: 97%;
+  display: flex;
+}
+
+#table-carrinho {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-carrinho thead tr,
+#table-carrinho tbody tr {
+  border-bottom: 3px solid #eee;
+}
+
+#table-carrinho thead tr th {
+  text-align: left;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#table-carrinho tbody tr:last-child {
+  border: 0;
+}
+
+#table-carrinho tbody tr td {
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.produto {
+  display: flex;
+  align-items: center;
+}
+
+.produto .titulo {
+  border-top: none;
 }
 
 .produto img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+#compras-container {
+  min-height: 250px;
+  margin-left: 30px;
 }
