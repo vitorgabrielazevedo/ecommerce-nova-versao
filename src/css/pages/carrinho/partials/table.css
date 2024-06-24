@@ -30,8 +30,13 @@
   border-bottom: 3px solid #eee;
 }
 
+#table-carrinho thead tr th,
+#table-carrinho tbody tr td {
+  margin-right: 1rem;
+}
+
 #table-carrinho thead tr th {
-  text-align: left;
+  text-align: center;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
@@ -42,7 +47,7 @@
 
 #table-carrinho tbody tr td {
   padding: 2rem 0;
-  text-align: left;
+  text-align: center;
 }
 
 .produto {
@@ -60,21 +65,22 @@
 }
 
 .info-produto .titulo-produto {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .quant {
   background-color: #eee;
   display: inline-flex;
   justify-content: space-around;
-  width: 90px;
-  border-radius: 15px;
-  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  height: 40px;
   overflow: hidden;
 }
 
 .quant span {
   margin: 0.1rem 0.7rem;
+  align-self: center;
 }
 
 .quant button {
@@ -111,11 +117,6 @@
   background-color: #ccc;
 }
 
-/* #compras-container {
-  min-height: 250px;
-  margin-left: 30px;
-} */
-
 #compras-container .box {
   border-bottom: 15px;
   border: 1px solid #ccc;
@@ -127,8 +128,8 @@
 #compras-container button {
   border: 0;
   padding: 15px 0;
-  color: white;
-  background-color: green;
+  color: #fff;
+  background-color: #039603;
   display: block;
   width: 100%;
   text-transform: uppercase;
@@ -136,7 +137,45 @@
 }
 
 #compras-container h4 {
-  padding: 15px 20px;
+  padding: 1rem 1.5rem;
   font-size: 18px;
   border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#compras-container .info-compra {
+  padding: 1.2rem;
+  font-size: 16px;
+}
+
+#compras-container .info-compra div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+#compras-container .info-compra div:last-child {
+  margin: 0;
+}
+
+#compras-container .info-compra button {
+  color: #039603;
+  background: transparent;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+#compras-container .info-compra i {
+  align-self: center;
+  color: #039603;
+}
+
+#resultado-compras {
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
 }
