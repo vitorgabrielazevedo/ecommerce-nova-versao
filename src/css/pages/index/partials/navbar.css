@@ -50,3 +50,9 @@
 #navbar-itens form input::placeholder {
   font-size: 14px;
 }
+
+#navbar-itens form i {
+  align-self: center;
+  color: #fff;
+  font-size: 20px;
+}
