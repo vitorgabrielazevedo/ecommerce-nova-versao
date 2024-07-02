@@ -61,6 +61,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  border: 3px solid #188754;
   cursor: pointer;
 }
 
@@ -81,10 +82,18 @@
   margin-left: 1rem;
 }
 
+.avaliacao {
+  max-width: 600px;
+}
+
 .avaliacao-header,
 .avaliacao-nome {
   display: flex;
   justify-content: space-between;
+}
+
+.avaliacao-header .star i {
+  font-size: 16px;
 }
 
 .avaliacao-nome {

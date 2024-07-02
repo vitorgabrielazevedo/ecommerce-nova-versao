@@ -4,11 +4,11 @@
   flex-direction: column;
 }
 
-#cards .cards-container {
+#cards #cards-container {
   margin-bottom: 10px;
 }
 
-#cards .cards-container .card:not(.ativo) {
+#cards #cards-container .card:not(.ativo) {
   display: none;
 }
 

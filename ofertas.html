@@ -8,6 +8,9 @@
     <!-- css do projeto -->
     <link rel="stylesheet" href="src/css/pages/index/index.css" />
 
+    <!-- js da navbar -->
+    <script src="src/js/index/navbar.js" defer></script>
+
     <!-- js dos cards -->
     <script src="src/js/ofertas/cards.js" defer></script>
 
@@ -63,7 +66,7 @@
             </ul>
             <form class="d-flex">
               <input
-                type="text"
+                type="search"
                 name="search-input"
                 id="search-input"
                 class="form-control me-2"
@@ -105,8 +108,10 @@
           </li>
         </ul>
       </div>
+
+      <!-- cards -->
       <div id="cards">
-        <div class="container cards-container">
+        <div class="container" id="cards-container">
           <div class="col-12 col-md-10 offset-md-1">
             <div class="row">
               <div class="col-12 col-md-3">
@@ -177,12 +182,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="container cards-container">
-          <div class="col-12 col-md-10 offset-md-1">
-            <div class="row">
               <div class="col-12 col-md-3">
                 <div class="card">
                   <img
@@ -250,12 +249,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="container cards-container">
-          <div class="col-12 col-md-10 offset-md-1">
-            <div class="row">
               <div class="col-12 col-md-3">
                 <div class="card">
                   <img
