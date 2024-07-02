@@ -13,7 +13,93 @@
   width: 100%;
 }
 
+#produto h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.star ul {
+  position: relative;
+  left: -30px;
+  margin: 1rem 0;
+  display: flex;
+}
+
 .star i {
   margin-right: 5px;
   font-size: 25px;
+}
+
+#produto h5 {
+  margin-bottom: 0.7rem;
+  font-size: 25px;
+}
+
+/* detalhes */
+
+#detalhes {
+  padding: 2rem 1rem;
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: bold;
+  color: #313131;
+}
+
+#detalhes h6 {
+  font-size: 20px;
+}
+
+.cores {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.preto,
+.prata {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.preto {
+  background-color: #000;
+}
+
+.prata {
+  margin-left: 1rem;
+  background-color: #c0c0c0;
+}
+
+.gotocar {
+  margin-bottom: 2rem;
+}
+
+.gotocar .quant {
+  margin-left: 1rem;
+}
+
+.avaliacao-header,
+.avaliacao-nome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avaliacao-nome {
+  margin-bottom: 0.2rem;
+}
+
+.avaliacao-nome h3 {
+  font-size: 30px;
+}
+
+.avaliacao-nome .nome {
+  font-size: 18px;
+}
+
+.avaliacao-comentario p {
+  font-size: 18px;
+  text-align: justify;
 }
