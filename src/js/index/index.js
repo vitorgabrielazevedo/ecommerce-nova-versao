@@ -5,7 +5,7 @@ class Card extends HTMLElement {
 
   connectedCallback() {
     const card = document.createElement("div");
-    card.className = "card ativo";
+    card.className = "card";
     card.innerHTML = `
     <style>
       .card {

@@ -1,5 +1,5 @@
 const mostrarMaisBtn = document.querySelector("#mostrar-mais-btn");
-const cards = document.querySelectorAll(".card-item");
+const cards = document.querySelectorAll("card-item");
 
 const mostrarMaisProjetos = () => {
   cards.forEach((card) => {
