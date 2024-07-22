@@ -15,8 +15,8 @@ class Card extends HTMLElement {
     <div class="card-body">
       <h5 class="card-title">${this.getAttribute("title")}</h5>
       <h3 class="card-text">${this.getAttribute("price")}</h3>
+      <a href="carrinho.html" class="btn btn-success">Comprar</a>
     </div>
-    <a href="carrinho.html" class="btn btn-success">Comprar</a>
   `;
     this.appendChild(card);
   }
