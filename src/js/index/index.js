@@ -5,7 +5,7 @@ class Card extends HTMLElement {
 
   connectedCallback() {
     const div = document.createElement("div");
-    div.className = "col-md-4";
+    div.classList.add("col-12.col-md-3");
 
     const card = document.createElement("div");
     card.className = "card";
