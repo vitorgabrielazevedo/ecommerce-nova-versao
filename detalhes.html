@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR Google Assistente
-      3 HDMI 1 USB
-    </title>
+    <title>Detalhes do produto</title>
 
     <!-- css do projeto -->
     <link rel="stylesheet" href="src/css/pages/index/index.css" />
@@ -62,10 +59,28 @@
     </header>
 
     <!-- card detalhado -->
-    <section class="container" id="card-detalhado">
-      <div id="produto">
+    <section class="container" id="card-detalhado"></section>
+
+    <script>
+      function getProductIdFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("id");
+      }
+
+      // Função para carregar os detalhes do produto
+      async function loadProductDetails() {
+        const productId = getProductIdFromUrl();
+        console.log(productId);
+        const response = await fetch(
+          `http://localhost:3000/products/${productId}`
+        );
+        const product = await response.json();
+        const container = document.getElementById("card-detalhado");
+
+        container.innerHTML = `
+                <div id="produto">
         <div class="img">
-          <img src="src/img/card-01.png" alt="card-01" />
+          <img src="${product.src}" alt="${product.title}" />
         </div>
         <h3>Avaliações</h3>
         <div class="star">
@@ -98,11 +113,10 @@
       </div>
       <div id="detalhes">
         <h3>
-          Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR Google
-          Assistente 3 HDMI 1 USB
+          ${product.title}
         </h3>
         <div class="preco">
-          <p>R$ 2.089,05 no Pix ou R$ 2.199,00 em 10x de R$ 219,90 sem juros</p>
+          <p>${product.price} no Pix ou R$ 2.199,00 em 10x de R$ 219,90 sem juros</p>
         </div>
         <h6>Cores</h6>
         <div class="cores">
@@ -153,6 +167,10 @@
           </div>
         </div>
       </div>
-    </section>
+            `;
+      }
+
+      loadProductDetails();
+    </script>
   </body>
 </html>

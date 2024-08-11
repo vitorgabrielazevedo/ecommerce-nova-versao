@@ -4,8 +4,12 @@ class Card extends HTMLElement {
   }
 
   connectedCallback() {
+    const div = document.createElement("div");
+    div.className = "col-md-4";
+
     const card = document.createElement("div");
     card.className = "card";
+
     card.innerHTML = `
         <img src="${this.getAttribute(
           "src"
@@ -13,10 +17,12 @@ class Card extends HTMLElement {
         <div class="card-body">
           <h5 class="card-title">${this.getAttribute("title")}</h5>
           <h3 class="card-text">${this.getAttribute("price")}</h3>
-          <a href="carrinho.html" class="btn btn-success">Comprar</a>
+          <a href="detalhes.html" class="btn btn-success">Comprar</a>
         </div>
   `;
-    this.appendChild(card);
+
+    div.appendChild(card);
+    this.appendChild(div);
   }
 }
 
@@ -24,17 +30,22 @@ customElements.define("product-card", Card);
 
 fetch("http://localhost:3000/products")
   .then((res) => res.json())
-  .then((json) => console.log(json));
+  .then((json) => renderizar(json));
 
 function renderizar(products) {
-  const container = document.querySelectorAll(".product-cards-container");
+  const container = document.querySelector("#product-cards-container");
 
   products.forEach((product) => {
     const produto = document.createElement("product-card");
     produto.setAttribute("id", product.id);
-    produto.setAttribute("src", product.image);
+    produto.setAttribute("src", product.src);
     produto.setAttribute("title", product.title);
     produto.setAttribute("price", product.price);
+
+    produto.addEventListener("click", () => {
+      // redicionar para a página dos detalhes
+      window.location.href = `detalhes.html?id=${product.id}`;
+    });
     container.appendChild(produto);
   });
 }

@@ -35,6 +35,10 @@
 .card img {
   height: 200px;
 }
+
+product-card {
+  width: 450px;
+}
 /*
 #cards-container .card {
   padding: 1rem 0.3rem;
