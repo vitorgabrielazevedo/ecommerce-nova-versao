@@ -41,11 +41,6 @@ function renderizar(products) {
     produto.setAttribute("src", product.src);
     produto.setAttribute("title", product.title);
     produto.setAttribute("price", product.price);
-
-    // produto.addEventListener("click", () => {
-    //   // redicionar para a página dos detalhes
-    //   window.location.href = `detalhes.html?id=${product.id}`;
-    // });
     container.appendChild(produto);
   });
 }
