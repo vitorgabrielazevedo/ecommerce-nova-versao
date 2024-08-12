@@ -5,8 +5,6 @@ function obterIdProduto() {
 
 async function detalharProduto() {
   const idProduto = obterIdProduto();
-  console.log(idProduto);
-
   const res = await fetch(`http://localhost:3000/products/${idProduto}`);
   const produto = await res.json();
   const container = document.getElementById("card-detalhado");
