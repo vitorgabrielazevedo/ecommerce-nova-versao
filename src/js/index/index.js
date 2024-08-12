@@ -17,7 +17,7 @@ class Card extends HTMLElement {
         <div class="card-body">
           <h5 class="card-title">${this.getAttribute("title")}</h5>
           <h3 class="card-text">${this.getAttribute("price")}</h3>
-          <a href="detalhes.html" class="btn btn-success">Comprar</a>
+          <a href="detalhes.html?id=${this.getAttribute("id")}" class="btn btn-success">Comprar</a>
         </div>
   `;
 
@@ -42,10 +42,10 @@ function renderizar(products) {
     produto.setAttribute("title", product.title);
     produto.setAttribute("price", product.price);
 
-    produto.addEventListener("click", () => {
-      // redicionar para a página dos detalhes
-      window.location.href = `detalhes.html?id=${product.id}`;
-    });
+    // produto.addEventListener("click", () => {
+    //   // redicionar para a página dos detalhes
+    //   window.location.href = `detalhes.html?id=${product.id}`;
+    // });
     container.appendChild(produto);
   });
 }
