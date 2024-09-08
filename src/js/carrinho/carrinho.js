@@ -125,11 +125,7 @@ function calcularValorTotalCarrinho() {
   const finalizarBtn = document.querySelector("#compras-container");
 
   finalizarBtn.addEventListener("click", () => {
-    alert(
-      `Compra realizada. O valor total foi de ${formatarComoMoeda(
-        totalCarrinho
-      )}!`
-    );
+    alert("Compra realizada!");
 
     window.location.href = "index.html";
   });
