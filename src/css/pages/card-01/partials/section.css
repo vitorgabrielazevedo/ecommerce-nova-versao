@@ -9,6 +9,10 @@
   padding: 1rem 2rem;
 }
 
+#produto .img {
+  margin-bottom: 30px;
+}
+
 #produto img {
   width: 100%;
 }
@@ -42,7 +46,7 @@
 }
 
 .preco {
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: bold;
   color: #313131;
 }
@@ -78,9 +82,9 @@
   margin-bottom: 2rem;
 }
 
-.gotocar .quant {
+/* .gotocar .quant {
   margin-left: 1rem;
-}
+} */
 
 .avaliacao {
   max-width: 600px;

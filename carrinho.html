@@ -7,6 +7,9 @@
 
     <!-- css do projeto -->
     <link rel="stylesheet" href="src/css/pages/index/index.css" />
+
+    <!-- js do carrinho -->
+    <script src="src/js/carrinho/carrinho.js" defer></script>
   </head>
   <body>
     <!-- barra de navegação -->
@@ -83,70 +86,7 @@
               <th>Total</th>
               <th></th>
             </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <div class="produto">
-                    <img src="src/img/card-05.png" alt="Echo Dot" />
-                    <div class="info-produto">
-                      <h5 class="titulo-produto">
-                        Echo Dot 5ª geração com Relógio
-                      </h5>
-                      <p class="descricao-produto">Cor: Azul Claro</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <span class="preco">R$ 476,10</span>
-                </td>
-                <td>
-                  <div class="quant">
-                    <button>-</button>
-                    <span>2</span>
-                    <button>+</button>
-                  </div>
-                </td>
-                <td>
-                  <span class="total">R$ 952,20</span>
-                </td>
-                <td>
-                  <button class="remover-produto">
-                    <i class="bi bi-x"></i>
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="produto">
-                    <img src="src/img/card-05.png" alt="Echo Dot" />
-                    <div class="info-produto">
-                      <h5 class="titulo-produto">
-                        Echo Dot 5ª geração com Relógio
-                      </h5>
-                      <p class="descricao-produto">Cor: Azul Claro</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <span class="preco">R$ 476,10</span>
-                </td>
-                <td>
-                  <div class="quant">
-                    <button>-</button>
-                    <span>2</span>
-                    <button>+</button>
-                  </div>
-                </td>
-                <td>
-                  <span class="total">R$ 952,20</span>
-                </td>
-                <td>
-                  <button class="remover-produto">
-                    <i class="bi bi-x"></i>
-                  </button>
-                </td>
-              </tr>
-            </tbody>
+            <tbody></tbody>
           </table>
         </div>
         <div id="compras-container">
@@ -157,20 +97,20 @@
             <div class="info-compra">
               <div>
                 <span>Sub-total</span>
-                <span>R$ 1.904,40</span>
+                <span id="valor-subtotal">R$ 1.904,40</span>
               </div>
               <div>
                 <span>Frete</span>
                 <span>Gratuito</span>
               </div>
               <div>
-                <button>Adiciona cupom de desconto</button>
+                <button id="cupom-desconto">Adicionar cupom de desconto</button>
                 <i class="bi bi-arrow-right"></i>
               </div>
             </div>
             <footer id="resultado-compras">
               <span>Total</span>
-              <span>R$ 1.904,40</span>
+              <span id="valor-final">R$ 1.904,40</span>
             </footer>
           </div>
           <button type="submit">Finalizar</button>

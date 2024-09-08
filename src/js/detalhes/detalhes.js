@@ -5,8 +5,6 @@ function obterIdProduto() {
 
 async function detalharProduto() {
   const idProduto = obterIdProduto();
-  console.log(idProduto);
-
   const res = await fetch(`http://localhost:3000/products/${idProduto}`);
   const produto = await res.json();
   const container = document.getElementById("card-detalhado");
@@ -56,12 +54,7 @@ async function detalharProduto() {
                 <div class="prata"></div>
             </div>
             <div class="gotocar">
-                <a href="carrinho.html" class="btn btn-success">Comprar</a>
-                <div class="quant">
-                    <button>-</button>
-                    <span>1</span>
-                    <button>+</button>
-                </div>
+                <a href="carrinho.html" id="gotocar-btn" class="btn btn-success">Comprar</a>
             </div>
             <div class="avaliacao">
                 <div class="avaliacao-header">
@@ -84,22 +77,41 @@ async function detalharProduto() {
                             </li>
                         </ul>
                     </div>
-                    <div class="data">01 de julho de 2024</div>
+                    <div class="data">${produto.data}</div>
                 </div>
                 <div class="avaliacao-nome">
-                    <h3>Smart TV grande e incrível</h3>
-                    <div class="nome">Vitor</div>
+                    <h3>${produto.descricao}</h3>
+                    <div class="nome">${produto.cliente}</div>
                 </div>
                 <div class="avaliacao-comentario">
                     <p>
-                        Comprei esta Smart TV para um amigo meu e simplesmente ficou
-                        fantástica na sala dele, combinando com a cor da estante. Achei o
-                        preço acessível para um Smart TV como essa. Ele a amou!
+                        ${produto.comentario}
                     </p>
                 </div>
             </div>
         </div>
           `;
 }
+
+// função para adicionar ao carrinho
+async function adicionarAoCarrinho() {
+  const idProduto = obterIdProduto();
+  const res = await fetch(`http://localhost:3000/products/${idProduto}`);
+  const produto = await res.json();
+
+  const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+
+  const produtoJaAdicionado = carrinho.find((item) => item.id === produto.id);
+
+  if (!produtoJaAdicionado) {
+    carrinho.push(produto);
+    localStorage.setItem("carrinho", JSON.stringify(carrinho));
+  } else {
+    alert("Produto já adicionado!");
+    window.location.href = "/";
+  }
+}
+
+adicionarAoCarrinho();
 
 detalharProduto();

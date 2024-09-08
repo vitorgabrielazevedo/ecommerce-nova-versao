@@ -4,73 +4,145 @@
       "id": 1,
       "src": "src/img/card-01.png",
       "title": "Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR Google Assistente 3 HDMI 1 USB",
-      "price": "R$ 2.089,05"
+      "price": "R$ 2.089,05",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 2.089,05"
     },
     {
       "id": 2,
       "src": "src/img/card-02.png",
       "title": "Smartphone Motorola Razr 40 256GB Vanilla 5G Snapdragon 8GB RAM 6,9'' Câm. Dupla + Selfie 64MP",
-      "price": "R$ 3.599,10"
+      "price": "R$ 3.599,10",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 3.599,10"
     },
     {
       "id": 3,
       "src": "src/img/card-03.png",
       "title": "Smartphone Motorola Edge 40 Neo 256GB Soothing Sea 5G 8GB RAM 6,55'' Câm. Dupla + Selfie 32MP Dual Chip",
-      "price": "R$ 2.199,00"
+      "price": "R$ 2.199,00",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 2.199,00"
     },
     {
       "id": 4,
       "src": "src/img/card-04.png",
       "title": "Notebook Acer Aspire A315-24p-r06b 8gb 512gb W11 15.6 Prata Cor Prateado",
-      "price": "R$ 2.549,99"
+      "price": "R$ 2.549,99",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 2.549,99"
     },
     {
       "id": 5,
       "src": "src/img/card-05.png",
       "title": "Echo Dot 5ª geração com Relógio | Smart speaker com Alexa | Display de LED ainda melhor | Cor Azul Claro",
-      "price": "R$ 476,10"
+      "price": "R$ 476,10",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 476,10"
     },
     {
       "id": 6,
       "src": "src/img/card-06.png",
       "title": "Fone de Ouvido JBL Tune 520BT Azul Bluetooth Pure Bass Wireless Sem Fio Com Microfone JBLT520BTBLU",
-      "price": "R$ 287,91"
+      "price": "R$ 287,91",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 287,91"
     },
     {
       "id": 7,
       "src": "src/img/card-07.png",
       "title": "Smartphone Samsung Galaxy A54 5G 128GB 8GB RAM - Preto",
-      "price": "R$ 2.295,78"
+      "price": "R$ 2.295,78",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 2.295,78"
     },
     {
       "id": 8,
       "src": "src/img/card-08.png",
       "title": "Notebook Dell Inspiron 15 3000 Intel Core i5 8GB - 256GB SSD 15,6” Windows 11 i15-i1100-A35PF",
-      "price": "R$ 3.059,10"
+      "price": "R$ 3.059,10",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 3.059,10"
     },
     {
       "id": 9,
       "src": "src/img/card-09.png",
       "title": "Apple iPhone 13 256GB Meia-noite Tela 6,1” 12MP",
-      "price": "R$ 5.129,10"
+      "price": "R$ 5.129,10",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 5.129,10"
     },
     {
       "id": 10,
       "src": "src/img/card-10.png",
       "title": "Headphone Bluetooth Palmeiras Youbag - Branco",
-      "price": "R$ 213,39"
+      "price": "R$ 213,39",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 213,39"
     },
     {
       "id": 11,
       "src": "src/img/card-11.png",
       "title": "Echo Dot 5ª Geração Smart Speaker com Alexa",
-      "price": "R$ 401,84"
+      "price": "R$ 401,84",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 401,84"
     },
     {
       "id": 12,
       "src": "src/img/card-12.png",
       "title": "Smart TV 50” UHD 4K LED Samsung 50CU7700 - Wi-Fi Bluetooth Alexa 3 HDMI",
-      "price": "R$ 2.564,05"
+      "price": "R$ 2.564,05",
+      "data": "05 de janeiro de 2024",
+      "descricao": "Lorem ipsum dolor sit",
+      "cliente": "Lorem",
+      "comentario": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui aliquid assumenda quas est quos voluptas laudantium nostrum temporibus ullam quidem sunt quasi quae, possimus ratione modi placeat id praesentium?",
+      "quantidade": "1",
+      "totalPrice": "R$ 2.564,05"
     }
   ]
 }
