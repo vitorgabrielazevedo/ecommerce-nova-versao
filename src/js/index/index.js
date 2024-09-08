@@ -17,9 +17,13 @@ class Card extends HTMLElement {
         <div class="card-body">
           <h5 class="card-title">${this.getAttribute("title")}</h5>
           <h3 class="card-text">${this.getAttribute("price")}</h3>
+<<<<<<< HEAD
           <a href="detalhes.html?id=${this.getAttribute(
             "id"
           )}" class="btn btn-success">Comprar</a>
+=======
+          <a href="detalhes.html?id=${this.getAttribute("id")}" class="btn btn-success">Comprar</a>
+>>>>>>> f0f74b82172e796553f96303a351319f3351299c
         </div>
   `;
 
@@ -43,7 +47,10 @@ function renderizar(products) {
     produto.setAttribute("src", product.src);
     produto.setAttribute("title", product.title);
     produto.setAttribute("price", product.price);
+<<<<<<< HEAD
 
+=======
+>>>>>>> f0f74b82172e796553f96303a351319f3351299c
     container.appendChild(produto);
   });
 }
